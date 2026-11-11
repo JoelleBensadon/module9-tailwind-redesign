@@ -1,27 +1,24 @@
 
-# Module 8 Checkpoint Project
+# Module 9 - Tailwind CSS Redesign
 
-## Student Directory Application
-
-This project is a multi-page React and TypeScript application created for Module 8 of Front-End Frameworks.
+This project is a redesign of my Module 8 Student Directory application using Tailwind CSS.
 
 ## Features
-- Navigation between Home, Users, and About pages
-- User directory using the JSONPlaceholder API
-- Dynamic user detail pages
-- React Router with useParams and useNavigate
-- Custom 404 page
+- Responsive design for mobile, tablet, and desktop
+- Light and dark mode toggle
+- Reusable Button, Card, Navbar, and DarkModeToggle components
+- User directory with profile pages
+- React Router navigation
+- User data from JSONPlaceholder API
 
-## Technologies Used
+## Technologies
 - React
 - TypeScript
 - Vite
+- Tailwind CSS
 - React Router
-- JSONPlaceholder API
 
-## How to Run
-1. Install dependencies: `npm install`
-2. Start the application: `npm run dev`
+## Run Locally
 
-## API
-https://jsonplaceholder.typicode.com/users
+npm install
+npm run dev
